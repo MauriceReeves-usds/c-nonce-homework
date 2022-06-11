@@ -132,7 +132,7 @@ void create_record_list(const char* file_path) {
 /* our main method */
 int main() {
     /* create a record list and add it to the head record */
-    create_record_list("/Users/maurice/development/smeqa-homework/nonce.txt");
+    create_record_list("../resources/nonce.txt");
 
     /* print out all our records */
     Record* rec = head->next;
